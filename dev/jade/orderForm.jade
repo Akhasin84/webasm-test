@@ -1,0 +1,39 @@
+.order_form
+	h3 Оформление заказа
+	.inner_box
+		.price
+			.special
+				.old_price
+					span 1055 грн.
+					p Старая цена
+				.special_price
+					p Супер цена
+					span 555 грн.
+			.deadline
+				h4 До конца акции осталось:
+				.timer
+					.block.day
+						.box 31
+						span дней
+					.block.hour
+						.box 23
+						span часов
+					span :
+					.block.min
+						.box 59
+						span минут
+					span :
+					.block.sec
+						.box 59
+						span секунд
+		.form
+			form(action="mailto:men@dolgorukov.su" method="post")
+				input(type="text" name="name" placeholder="Имя" required)
+				input(type="tel" name="phone" placeholder="Телефон" required)
+				input.button(type="submit" value="Оформить заказ")
+		.blueprint
+			img(src="images/bluerPrintOrder.png" alt="face")
+		.yellowprint
+			img(src="images/yellowPrintOrder.png" alt="face")
+		.tovar 
+			img(src="images/tovar.png" alt="face")
