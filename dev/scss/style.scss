@@ -2,6 +2,16 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Acrom;
+    src: url(../fonts/Acrom-Bold.otf);
+    src: url(../fonts/Acrom-ExtraBold.otf);
+    src: url(../fonts/Acrom-Light.otf);
+    src: url(../fonts/Acrom-Medium.otf);
+    src: url(../fonts/Acrom-Regular.otf);
+    src: url(../fonts/Acrom-Thin.otf);
+}
+
 body{
 	margin: 0 auto;
 	font-size: 100%;
@@ -12,10 +22,10 @@ body{
 
 $mintColor: #4ab7c7;
 $blackFontColor: #212121;
-$fimFontAcrom: sans-serif;
+$fimFontAcrom: 'Acrom', sans-serif;
 $firmYellowColor: #ffce23;
 $backBlueColor: #4788ae;
-$textFontRoboto: sans-serif;
+$textFontRoboto: 'Roboto', sans-serif;
 
 
 .header{
